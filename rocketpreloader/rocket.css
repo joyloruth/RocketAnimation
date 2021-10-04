@@ -30,7 +30,7 @@ body{
   animation-timing-function: ease, ease,ease,ease ;
   animation-iteration-count: 1,1,1,1;
   z-index: 9;
-  background-size:cover;
+  background-size: cover;
 }
 
 .rocketpreloader h1{
