@@ -80,7 +80,7 @@ body {
   height: 275px;
   top: 15%;
   left: 20px;
-  box-shadow: 0px 6px 5px #ccc;
+  
   position: relative;
   -webkit-animation: fly, cloudsize, cloudfall, end;
   -moz-animation: fly, cloudsize, cloudfall, end;
@@ -115,7 +115,7 @@ body {
   animation-fill-mode: forwards;
   top: 25%;
   right: 30;
-  box-shadow: 0px 6px 5px grey;
+  
 }
 .cloud3 {
   height: 430px;
@@ -133,7 +133,7 @@ body {
   top: 0;
   right: 50;
   z-index: -1;
-  box-shadow: 0px 6px 5px grey;
+  
 }
 
 .cloud4 {
@@ -159,7 +159,6 @@ body {
   -moz-animation: fly, cloudsize, cloudfall, end;
   -o-animation: fly, cloudsize, cloudfall, end;
   animation: fly, cloudsize, cloudfall, end;
-
   animation-name: rotate, fly, rocketsize, moveUp, rocketsizebig, end;
   animation-duration: 1s, 3s, 2s, 0.5s, 2s, 2s;
   animation-delay: 0s, 1s, 5s, 8s, 12s, 13s;
@@ -171,9 +170,9 @@ body {
 }
 
 .fire {
-  height: 1px;
+  height: 10px;
   position: relative;
-  top: 160px;
+  top: 200px;
   z-index: 999;
   -webkit-animation: makevisible, moveUp, end;
   -moz-animation: makevisible, moveUp, end;
@@ -297,7 +296,8 @@ body {
   to {
     transform: translateY(2000px);
 
-    height: 2000%;
+    height: 2100%;
+    scale:1.5;
 
   }
 }
@@ -329,6 +329,7 @@ body {
 @keyframes makevisible {
   from {
     height: 0%;
+   
   }
   to {
     height: 50%;
@@ -375,8 +376,6 @@ body {
 #refresh_button:hover {
   font-size: 22px;
   color: white;
-  box-shadow: 1px 1px 2px rgba(162, 147, 250, 0.637),
-    0 0 25px rgb(192, 192, 245), 0 0 5px white;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -384,8 +383,9 @@ body {
 #refresh-container {
   position: absolute;
   background-color: white;
-  width: 35%;
-  height: 50%;
+  width: 350px;
+  box-sizing: border-box;
+  height: 350px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -399,13 +399,12 @@ body {
   -o-animation-delay: 16s;
   animation-delay: 16s;
   border: 5px solid black;
-  box-shadow: 10px 10px 2.5px rgba(0, 0, 0, 0.788);
+  box-shadow: 0px 10px 2.5px rgba(0, 0, 0, 0.788);
 }
 
 #refresh_page_rocket {
   position: absolute;
-  width: 40%;
-  bottom: 10px;
+  width: 400px;
   -webkit-animation: moveUp 1s ease alternate infinite;
   -moz-animation: moveUp 1s ease alternate infinite;
   -o-animation: moveUp 1s ease alternate infinite;
