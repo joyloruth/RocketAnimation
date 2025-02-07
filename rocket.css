@@ -8,7 +8,7 @@ body {
       rgba(0, 168, 247, 0.5),
       rgba(3, 15, 189, 0.897)
     ),
-    url("/images/nightsky.png");
+    url("images/nightsky.png");
   background-size: cover;
   justify-content: center;
   align-items: center;
@@ -236,7 +236,7 @@ body {
 @keyframes skycolor {
   from {
     background: linear-gradient(rgba(8, 96, 212, 0.911) 60%, rgb(31, 151, 206)),
-      url(/images/nightsky.png);
+      url(images/nightsky.png);
     background-repeat: none;
     background-size: cover;
   }
@@ -245,7 +245,7 @@ body {
         rgba(7, 28, 119, 0.575),
         rgba(3, 90, 172, 0.836)
       ),
-      url(/images/nightsky.png);
+      url(images/nightsky.png);
     background-repeat: none;
     background-size: cover;
   }
