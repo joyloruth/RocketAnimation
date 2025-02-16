@@ -7,3 +7,4 @@ This animation is built purely with CSS, without any JavaScript. The rocket smoo
 <li>CSS3 (keyframes, transforms, animations)</li>
 <br>
 Launch the rocket 🚀 <a href="https://joyloruth.github.io/RocketAnimation/rocketpreloader/rocket.html">here</a> !
+<p>Illustration by Joy LoRuth</p>
